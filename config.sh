@@ -1,28 +1,28 @@
 #!/bin/bash
 
-export GITHUB_USER=""
-export GITHUB_EMAIL=""
+export GITHUB_USER="BulletFlux"
+export GITHUB_EMAIL="skbulletflux@gmail.com"
 
-export device=""
+export device="mojito"
 
-export ROM=""
-export ROM_DIR=""
-export ROM_VERSION=""
-export local_manifest_url=""
-export manifest_url=""
-export rom_vendor_name=""
-export branch=""
+export ROM="PixelExtended"
+export ROM_DIR="${WORKSPACE}/work/pixel"
+export ROM_VERSION="12.1"
+export local_manifest_url="https://raw.githubusercontent.com/BulletFlux/local_manifest/Pixel/local_manifest.xml"
+export manifest_url="https://github.com/PixelExtended/manifest"
+export rom_vendor_name="aosp"
+export branch="snow"
 export bacon="bacon"
-export buildtype=""
-export clean=""
-export generate_incremental=""
-export upload_recovery=""
+export buildtype="userdebug"
+export clean="false "
+export generate_incremental="false "
+export upload_recovery="false "
 
-export ccache=""
-export ccache_size=""
+export ccache="true"
+export ccache_size="100"
 
 export jenkins="false"
 
-export release_repo=""
+export release_repo="BulletFlux/release"
 
 export timezone="UTC"
