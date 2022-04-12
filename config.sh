@@ -2,6 +2,7 @@
 
 export GITHUB_USER="BulletFlux"
 export GITHUB_EMAIL="skbulletflux@gmail.com"
+export GITHUB_TOKEN=""
 
 export device="mojito"
 
@@ -26,3 +27,6 @@ export jenkins="false"
 export release_repo="BulletFlux/release"
 
 export timezone="UTC"
+
+export TELEGRAM_CHAT="-1001586406120"
+export TELEGRAM_TOKEN="" 
