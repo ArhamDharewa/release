@@ -22,6 +22,7 @@ elif [ "${ccache}" == "true" ] && [ -z "${ccache_size}" ]; then
 fi
 if [ ! -z "${rom_vendor_name}" ]; then
     lunch "${rom_vendor_name}_${device}-${buildtype}"
+    lunch "${rom_vendor_name}_${device}-${buildtype}"
 else
     lunch "${device}-${buildtype}"
 fi

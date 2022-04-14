@@ -13,7 +13,6 @@ git checkout origin/"${branch}"
 git branch -D "${branch}"
 git checkout -b "${branch}"
 source config.sh
-export GITHUB_TOKEN=""
 export TELEGRAM_TOKEN=""
 export TELEGRAM_CHAT=""
 export BUILD_NUMBER=""
