@@ -10,7 +10,6 @@ if [ "${device}" == "mojito" ]; then
     git clone --depth=1 https://gitlab.com/xiaomi-sdm678/android_vendor_xiaomi_sm6150-common.git -b 12 vendor/xiaomi/sm6150-common
     git clone --depth=1 https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf -b 12.0.0 prebuilts/gcc/linux-x86/aarch64/aarch64-elf
     git clone --depth=1 https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_arm_arm-eabi -b 12.0.0 prebuilts/gcc/linux-x86/arm/arm-eabi
-    git clone https://github.com/BulletFlux/vendor_PixelMod vendor/PixelMod
     git clone https://github.com/Neternels/android_kernel_xiaomi_mojito -b staging-test kernel/xiaomi/mojito
     git clone https://gitlab.com/ArhamDharewa/vendor_xiaomi_miuicamera.git vendor/xiaomi/miuicamera
     
@@ -24,7 +23,6 @@ elif [ "${device}" == "mido" ]; then
     git clone https://github.com/BulletFlux/dt_mido device/xiaomi/mido 
     git clone https://github.com/Alone0316/kernel_mido -b oc kernel/xiaomi/mido
     git clone https://github.com/Alone0316/vendor_xiaomi_mido vendor/xiaomi
-    git clone https://github.com/BulletFlux/vendor_PixelMod vendor/PixelMod
     git clone https://github.com/PixelExperience/external_ant-wireless_antradio-library external/ant-wireless/antradio-library
     git clone --depth=1 https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf -b 12.0.0 prebuilts/gcc/linux-x86/aarch64/aarch64-elf
     git clone --depth=1 https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_arm_arm-eabi -b 12.0.0 prebuilts/gcc/linux-x86/arm/arm-eabi 
